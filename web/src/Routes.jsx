@@ -14,7 +14,6 @@ import ScaffoldLayout from 'src/layouts/ScaffoldLayout'
 import { useAuth } from './auth'
 import BlogLayout from './layouts/BlogLayout/BlogLayout' // as a convenience feature redwood allows us to just do ./layouts or src/layouts through context of the directory
 
-
 const Routes = () => {
   return (
     <Router useAuth={useAuth}>
